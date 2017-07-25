@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>首页</title>
+	<meta name="viewport" content="width=device-width,
+	initial-scale=1.0,
+	maximum-scale=1.0,
+	minimum-scale=1.0,
+	user-scalable=no">
+	<link rel="stylesheet" href="./css/swiper.min.css">
+	<link rel="stylesheet" type="text/css" href="./css/base.css">
+	<link rel="stylesheet" type="text/css" href="./css/index.css">
+	<script type="text/javascript" src="./js/zepto.min.js"></script>
+	<script type="text/javascript" src="./js/base.js"></script>
+</head>
+<body>
+	<div class="header clearfix">
+		<a href="index.html"><div class="logo">
+			<img src="./img/logo.png" alt="">
+		</div></a>
+		<div class="nav" id="nav">
+			<div class="menu"></div>
+		</div>
+	</div>
+	<div class="container">
+		<div class="banner">
+		<div class="swiper-container">
+		    <div class="swiper-wrapper">
+	        	<img src="./img/banner1.jpg"  width="100%" class="swiper-slide"  alt="">
+	        	<img src="./img/banner1.jpg" width="100%" class="swiper-slide"  alt="">
+	        	<img src="./img/banner1.jpg" width="100%" class="swiper-slide"  alt="">
+		    </div>
+		    <!-- 如果需要分页器 -->
+		    <div class="swiper-pagination"></div>
+		</div>
+	</div>
+	<script src="./js/swiper.jquery.min.js"></script>
+	<script  type="text/javascript">
+		$(document).ready(function () {
+ 			var mySwiper = new Swiper ('.swiper-container', {
+		    direction: 'horizontal',
+		    loop: true,
+		    wrapper:'.swiper-wrapper',
+		    slider:'img',
+		    // 如果需要分页器
+		    pagination: '.swiper-pagination'
+  				})        
+			})
+	</script>
+	<section class="about-us">
+		 		<h1 class="title">关于我们</h1>
+		 		<h4 class="small-title">ABOUT</h4>
+		 		<div class="content clearfix">
+		 			<div class="img-wrapper">
+		 				<img src="./img/about.jpg" alt="">
+		 			</div>
+		 			<div class="text">
+		 				<p>作为省内专业的金融机构，河南盛鑫金融服务有限公司秉承“信用开启美好未来”的企业愿景和理念，专注为消费者提供贴心的品牌体验和专业的客户服务。盛鑫金服全新官网(www.gaolijinrong.cn)全新上线，以崭新的形象迎接企业的新发展。</p>
+		 			</div>
+		 		</div>
+		 		<div class="know-more">	
+ 					<a href="about.html" class="btn-more border-1px">了解更多</a>
+ 				</div>
+	 	</section>
+
+
+<section class="product">
+		 			<h1 class="title">盛鑫产品</h1>
+		 			<h4 class="small-title">product</h4>
+		 			<div class="boxs">
+			 					<ul class="clearfix">
+			 						<li class="product-item">
+				               	   		<figure class="pic">
+				                   			<img src="./img/jinzhu.jpg"/>
+				                   		<figcaption class="product-content">
+				                     		 <div class="wrapper">
+				                     		 	<h3 class="title"><a href="detail.html">盛鑫金融新人贷</a></h3>
+				                     		 	<div class="liner"></div>
+				                     		    <p class="text">一直关注着相关组织机构对于培养青少年发展的项目，希望可以共同搭建平台</p>
+				                     		 </div>
+				                   		</figcaption>
+			                    		</figure>
+			                		</li>
+			                		<li class="product-item">
+				               	   		<figure class="pic">
+				                   			<img src="./img/jinbi.jpg"/>
+				                   		<figcaption class="product-content">
+				                     		 <div class="wrapper">
+				                     		 	<h3 class="title"><a href="detail.html">盛鑫金融新人贷</a></h3>
+				                     		 	<div class="liner"></div>
+				                     		    <p class="text">一直关注着相关组织机构对于培养青少年发展的项目，希望可以共同搭建平台</p>
+				                     		 </div>
+				                   		</figcaption>
+			                    		</figure>
+			                		</li>
+			                		<li class="product-item">
+				               	   		<figure class="pic">
+				                   			<img src="./img/chaopiao.jpg"/>
+				                   		<figcaption class="product-content">
+				                     		 <div class="wrapper">
+				                     		 	<h3 class="title"><a href="detail.html">盛鑫金融新人贷</a></h3>
+				                     		 	<div class="liner border-1px"></div>
+				                     		    <p class="text">一直关注着相关组织机构对于培养青少年发展的项目，希望可以共同搭建平台</p>
+				                     		 </div>
+				                   		</figcaption>
+			                    		</figure>
+			                		</li>
+			                		<li class="product-item">
+				               	   		<figure class="pic">
+				                   			<img src="./img/jinzhu.jpg"/>
+				                   		<figcaption class="product-content">
+				                     		 <div class="wrapper">
+				                     		 	<h3 class="title"><a href="detail.html">盛鑫金融新人贷</a></h3>
+				                     		 	<div class="liner"></div>
+				                     		    <p class="text">一直关注着相关组织机构对于培养青少年发展的项目，希望可以共同搭建平台</p>
+				                     		 </div>
+				                   		</figcaption>
+			                    		</figure>
+			                		</li>
+					 			</ul>
+		 			</div>
+ 	</section>
+ 	<section class="news">
+ 				<h1 class="title" id="next">新闻动态</h1>
+ 				<h4 class="small-title">NEWS</h4>
+		 		<div class="tab">
+		 			<a href="javascript:void(0)" data-id="dongtai" class="company active   ">公司动态</a>
+		 			<a href="javascript:void(0)" data-id="xinwen" class="company   ">行业新闻</a>
+		 		</div>
+	 			<ul class="wrapper" id="dongtai">
+		 			<li class="content-item clearfix">
+		 				<div class="left">
+		 					<a href="#"><img src="./img/dizhai.jpg" alt="" class="lf" ></a>
+		 				</div>
+		 				<div class="item-right">
+		 					<a href="news-list.html"><h3 class="title">中银消费金融有限公司荣获“第一财经·中国企业社会责任榜</h3></a>
+		 					<div class="date">
+		 						08-05<div class="jiantou"></div>
+		 					</div>
+		 				</div>
+		 			</li>
+		 			<li class="content-item clearfix">
+		 				<div class="left">
+		 					<a href="#"><img src="./img/dizhai.jpg" alt="" class="lf" ></a>
+		 				</div>
+		 				<div class="item-right">
+		 						<a href="news-list.html"><h3 class="title">中银消费金融有限公司荣获“第一财经·中国企业社会责任榜</h3></a>
+		 					<div class="date">
+		 						08-05<div class="jiantou"></div>
+		 					</div>
+		 				</div>
+		 			</li>
+		 			<li class="content-item clearfix">
+		 				<div class="left">
+		 					<a href="#"><img src="./img/dizhai.jpg" alt="" class="lf" ></a>
+		 				</div>
+		 				<div class="item-right">
+		 						<a href="news-list.html"><h3 class="title">中银消费金融有限公司荣获“第一财经·中国企业社会责任榜</h3></a>
+		 					<div class="date">
+		 						08-05<div class="jiantou"></div>
+		 					</div>
+		 				</div>
+		 			</li>
+		 			<div class="know-more">	
+ 					<a href="news-dongtai.html" class="btn-more  border-1px">了解更多</a>
+ 				</div>
+				</ul>
+				<ul class="wrapper hidden"   id="xinwen">
+		 			<li class="content-item clearfix">
+		 				<div class="left">
+		 					<a href="#"><img src="./img/dizhai.jpg" alt="" class="lf" ></a>
+		 				</div>
+		 				<div class="item-right">
+		 					<a href="news-list.html"><h3 class="title">中国企业社会责任榜·中银消费金融有限公司荣获“第一财经</h3></a>
+		 					<div class="date">
+		 						08-05<div class="jiantou"></div>
+		 					</div>
+		 				</div>
+		 			</li>
+		 			<li class="content-item clearfix">
+		 				<div class="left">
+		 					<a href="#"><img src="./img/dizhai.jpg" alt="" class="lf" ></a>
+		 				</div>
+		 				<div class="item-right">
+		 						<a href="news-list.html"><h3 class="title">中国企业社会责任榜·中银消费金融有限公司荣获“第一财经</h3></a>
+		 					<div class="date">
+		 						08-05<div class="jiantou"></div>
+		 					</div>
+		 				</div>
+		 			</li>
+		 			<li class="content-item clearfix">
+		 				<div class="left">
+		 					<a href="#"><img src="./img/dizhai.jpg" alt="" class="lf" ></a>
+		 				</div>
+		 				<div class="item-right">
+		 						<a href="news-list.html"><h3 class="title">中国企业社会责任榜·中银消费金融有限公司荣获“第一财经</h3></a>
+		 					<div class="date">
+		 						08-05<div class="jiantou"></div>
+		 					</div>
+		 				</div>
+		 			</li>
+		 			<div class="know-more">	
+ 					<a href="news-hangye.html" class="btn-more  border-1px">了解更多</a>
+ 					</div>
+				</ul>
+ 				
+ 	</section>
+ 	<section class="parner">
+ 				<h1 class="title">合作伙伴</h1>
+ 				<h4 class="small-title">PARNER</h4>
+		 		<ul class="parners clearfix">
+		 			<li class="item">
+		 				<img src="./img/ruiyu.jpg" alt="">
+		 			</li>
+		 			<li class="item">
+		 				<img src="./img/ruiyu.jpg" alt="">
+		 			</li>
+		 			<li class="item">
+		 				<img src="./img/yirendai.jpg" alt="">
+		 			</li>
+		 			<li class="item">
+		 				<img src="./img/yirendai.jpg" alt="">
+		 			</li>
+		 			<li class="item">
+		 				<img src="./img/yirendai.jpg" alt="">
+		 			</li>
+		 			<li class="item">
+		 				<img src="./img/jd.jpg" alt="">
+		 			</li>
+		 			<li class="item">
+		 				<img src="./img/jinshangdai.jpg" alt="">
+		 			</li>
+		 			<li class="item">
+		 				<img src="./img/yinhu.jpg" alt="">
+		 			</li>
+		 			<li class="item">
+		 				<img src="./img/guangxia.jpg" alt="">
+		 			</li>
+		 			<li class="item">
+		 				<img src="./img/tuandai.jpg" alt="">
+		 			</li>
+		 		</ul>
+ 	</section>
+
+ 	<footer class="footer">
+ 				<p>地址：郑州市郑东新区五栋大楼E座604</p>
+ 				<p>官网：www.1jiamei.com</p>
+ 				<p>客服热线：400-9657-900</p>
+ 				<p>Copyright 2018 | All Rights Reserved.</p>
+ 				<p>技t术支持：灵秀网络科技</p>
+ 	</footer>
+	</div>
+ 	<div class="bespoke clearfix">
+ 		<a href="tel:18688888888" class="zixun border-right-1px">电话咨询</a>
+ 		<p id="yuyue">马上预约</p>
+ 	</div>
+</body>
+</html>
